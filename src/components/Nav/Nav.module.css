@@ -1,0 +1,41 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between;
+    background-color: rgb(145, 140, 135, 0.5);
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 30%;
+}
+.nav button{
+    font-size:medium;
+}
+.container{
+
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+    justify-content:space-between;
+    background-image: url('../../img/fondoImg.jpg');
+    width:100%;
+    height: 120px;    
+}
+
+.containerImg{
+    display: flex;
+    flex-direction: row;
+}
+
+.txtLogo{
+    position: relative;
+    left: 298px;
+    font-size: small;
+    background-color: rgb(145, 140, 135, 0.5);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.link{
+ position:absolute;
+}
